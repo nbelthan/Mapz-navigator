@@ -169,12 +169,12 @@ export const MapboxMap = () => {
         <Source type="vector" url="mapbox://jn1532.2z2q31r2">
           <Layer beforeId="waterway" {...zipLayer} />
         </Source>
+
+        <div className="plogo">
+          <img src="/dfinity_small.png" />
+        </div>
       </Map>
       {selectedZip && <ZipInfo data={selectedZip} />}
-
-      <div className="map-overlay">
-        <img src="/dfinity_small.png" />
-      </div>
     </div>
   );
 };
