@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.button {
+  background-color: #ff4166;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+.map-overlay {
+  position: relative;
+  bottom: 35px;
+  pointer-events: none;
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* width: fit-content; */
+  width: 100%;
+  color: white;
+}
+
+.map-overlay > img {
+  margin-right: 10px;
+  width: 250px;
+  filter: drop-shadow(0px 0px 2px #222);
+}
