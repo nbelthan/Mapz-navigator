@@ -30,3 +30,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/public/tl_2020_us_zcta520.json

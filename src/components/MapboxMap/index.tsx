@@ -164,6 +164,7 @@ export const MapboxMap = () => {
         onClick={handleClick}
         interactiveLayerIds={["zip"]}
         projection={{ name: "mercator" }}
+        preserveDrawingBuffer={true}
       >
         <Geocoder position="top-left" />
         <Source type="vector" url="mapbox://jn1532.2z2q31r2">
